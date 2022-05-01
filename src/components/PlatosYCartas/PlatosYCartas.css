@@ -1,0 +1,10 @@
+.contenedorCarta {
+  margin: auto;
+  background-color: grey;
+}
+
+.contenedorLista ul {
+  border-radius: 0,5px;
+  border-style: groove;
+  border-color: black;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import * as ReactBootStrap from 'react-bootstrap';
+import { CartWidget } from './CartWidget';
+
 
 function NavBar() {
   return (
@@ -38,6 +40,7 @@ function NavBar() {
               </ReactBootStrap.NavDropdown>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
+          <CartWidget />
         </ReactBootStrap.Container>
       </ReactBootStrap.Navbar>
     </div>
