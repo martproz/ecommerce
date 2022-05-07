@@ -1,7 +1,6 @@
-import React from 'react';
-import * as ReactBootStrap from 'react-bootstrap';
-import { CartWidget } from './CartWidget';
-
+import React from "react";
+import * as ReactBootStrap from "react-bootstrap";
+import { CartWidget } from "./CartWidget";
 
 function NavBar() {
   return (

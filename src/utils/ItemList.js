@@ -7,9 +7,9 @@ export const getFakeApiCarta = () => {
     { nombre: "churrasco", imagen: "imagen", cantidad: 10 },
   ];
 
-  const demora = 2000; // miliseg
+  const demora = 2000; 
 
-  return new Promise((resolve, reject) => { //3) viene de app.jsx. vamos a otra vez a app.jsx
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(carta);
     }, demora);

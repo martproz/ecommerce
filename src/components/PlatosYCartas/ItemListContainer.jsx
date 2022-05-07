@@ -1,10 +1,9 @@
-import React from 'react'
-import { ItemContainer } from './ItemContainer'
-import '../PlatosYCartas/PlatosYCartas.css'
-import * as ReactBootStrap from 'react-bootstrap';
+import React from "react";
+import { ItemContainer } from "./ItemContainer";
+import "../PlatosYCartas/PlatosYCartas.css";
+import * as ReactBootStrap from "react-bootstrap";
 
-
-export const ItemListContainer = (props) => { 
+export const ItemListContainer = (props) => {
   return (
     <ReactBootStrap.Container>
       <ReactBootStrap.Row>
