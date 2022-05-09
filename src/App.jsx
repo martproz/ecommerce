@@ -2,8 +2,7 @@ import { ItemListContainer } from "components/PlatosYCartas/ItemListContainer";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import milanesa from "./imagenes/milanesa.jpeg";
-import Contador from "./components/PlatosYCartas/Contador";
+import Contador from "./components/PlatosYCartas/ItemCount";
 import { getFakeApiCarta } from "./utils/ItemList";
 
 function App() {
